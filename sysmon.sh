@@ -45,7 +45,7 @@ echo "+---------------+-------+"
 
 if [[ $1 == "-x" ]]
 then
-	user=$(last | grep "still logged in" | awk 'BEGIN {count=1;} {print "|" count++ "\t\t|" $1 "/" $3}') # THIS BLOODY COMMAND TOOK YOU 1.5 HR
+	user=$(last | grep "still logged in" | awk 'BEGIN {count=1;} {print "|" count++ "\t\t|" $1 "/" $3}')
 	tppr=$(ps aux --sort=-%mem | head -n 6 | awk {'print "|"$3"\t"$4"\t|"$2"\t"$11'})
         conc=$(netstat -tulap | grep ESTAB | awk {'print "|Established    |"$7"  ["$4"->"$5"]"'})
         port=$(netstat -tlpn | awk '{print "|"$1"\t\t|" $4}' | tail -n +3 | grep -v '127.0.0.1')
