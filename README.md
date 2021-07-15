@@ -5,9 +5,12 @@
 This neat shell script gives system administrator a proper insight of the server/machine in a clean format.
 by using a single command ```sysmon```
 you can get information of linux system like:
-  - external/internal IPv4
+  - Internet status, External/Internal IPv4
+  - Mac address/Name server/Uptime
+  - Cpu Information/Average Load/Firewall Status
   - Disk Dirves/Usage/Free space
   - OS/kernel version
+
 And Much more (See sample output)
 
 # Installation
@@ -47,6 +50,7 @@ sysmon
 |Firewall Status| inactive::(dead)
 +---------------+-------+
 ```
+
 
 * The switch 'sysmon -x' will give extra bits of information like
   - Logged In users
