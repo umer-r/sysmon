@@ -3,6 +3,12 @@
 
 # Description
 This neat shell script gives system administrator a proper insight of the server/machine in a clean format.
+by using a single command ```sysmon```
+you can get information of linux system like:
+  - external/internal IPv4
+  - Disk Dirves/Usage/Free space
+  - OS/kernel version
+And Much more (See sample output)
 
 # Installation
 ### On Terminal
