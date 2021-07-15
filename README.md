@@ -3,7 +3,7 @@
 
 # Description
 This neat shell script gives system administrator a proper insight of the server/machine in a clean format.
-by using a single command ```sysmon```
+By using a single command ```sysmon```
 you can get information of linux system like:
   - Internet status, External/Internal IPv4
   - Mac address/Name server/Uptime
