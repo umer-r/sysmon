@@ -47,3 +47,48 @@ sysmon
   - Top Memory eating Processes
   - Established Connections
   - open Ports
+
+### On Terminal
+```
+sysmon -x
+```
+### Output
+```
++---------------+
+|Logged in Users|
++---------------+-------+
+|1              |carbon/192.168.10.8
+|2              |root/:0
++---------------+-------+
+
++---------------+
+|TOP PROCESSES  |
++---------------+------+
+|%CPU   %MEM    |PID    COMMAND
+|0.3    2.1     |539    /usr/lib/xorg/Xorg
+|0.1    2.0     |885    xfwm4
+|0.3    1.8     |1096   /usr/bin/qterminal
+|0.1    1.2     |967    /usr/bin/python3
+|0.2    1.1     |925    xfdesktop
++---------------+------+
+
++---------------+
+|CONECTIONS     |
++---------------+------+
+|Established    |1547/sshd:  [192.168.10.20:ssh->Carbon:49348]
+|Established    |445/NetworkManager  [192.168.10.20:bootpc->Broadcom.Home:bootps]
++---------------+------+
+
++---------------+
+|OPEN PORTS     |
++---------------+------+
+|tcp            |0.0.0.0:22
+|tcp6           |:::22
++---------------+------+
+```
+
+# Contact
+- Twitter : @UmerMehmood_
+- Email   : russs3400@gmail.com
+- Upwork  : https://www.upwork.com/o/profiles/users/~011184505ed9059668/
+- Fiverr  : https://www.fiverr.com/carbon_2019
