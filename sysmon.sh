@@ -80,8 +80,3 @@ then
 else
         exit 0
 fi
-
-
-# Extra Info
-# pmap 1314 | sed -n '1p;$p'
-# ln -s /path/to/script /usr/local/bin/name
