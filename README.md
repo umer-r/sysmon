@@ -1,4 +1,4 @@
-![alt text](https://user-images.githubusercontent.com/83476929/126334515-333908e2-bb99-494c-a3f7-5c4fecf7c506.jpg?raw=true "Title")
+![alt text](https://user-images.githubusercontent.com/83476929/126334515-333908e2-bb99-494c-a3f7-5c4fecf7c506.jpg?raw=true =250x200)
 # SYSMON
 ***Linux System information and monitoring version 1.0***
 
