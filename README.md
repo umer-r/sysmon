@@ -1,4 +1,4 @@
-![](https://user-images.githubusercontent.com/83476929/126334515-333908e2-bb99-494c-a3f7-5c4fecf7c506.jpg?v=4&s=200)
+![](https://user-images.githubusercontent.com/83476929/126336819-995d9b8a-dc25-4d73-bbfe-e246562cf628.jpg)
 # SYSMON
 ***Linux System information and monitoring version 1.0***
 
