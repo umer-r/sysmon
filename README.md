@@ -1,9 +1,6 @@
 ![](https://user-images.githubusercontent.com/83476929/126708973-1db7e73d-b79a-4b78-9743-d0cdbe11ed5a.png)
 <br />
-<br />
-<br />
-<br />
-# SYSMON
+## SYSMON
 ***Linux System information and monitoring version 1.0***
 
 # Description
