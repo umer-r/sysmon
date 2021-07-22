@@ -1,4 +1,4 @@
-![](https://user-images.githubusercontent.com/83476929/126342442-ee5ac1e6-1ca8-4bcd-b774-579d2ab14108.png)
+![](https://user-images.githubusercontent.com/83476929/126708973-1db7e73d-b79a-4b78-9743-d0cdbe11ed5a.png)
 
 
 ***Linux System information and monitoring version 1.0***
