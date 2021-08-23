@@ -14,12 +14,15 @@ disk=$(df -h / | tail -n 1 | awk {'print $2"/"$3"->"$4"(Free)"'})
 load=$(uptime | sed -n -e 's/^.*average: //p')
 driv=$(parted --list | egrep "^Disk /dev" | awk '{print $2"-->("$3$4")  "}' | tr -d ':','\n')
 uuid=$(cat /etc/machine-id)
-frwl=$(systemctl status firewalld | grep Active | awk {'print $2"::"$3'})
-check_net=$(ping -c 1 google.com | grep 64 | awk {'print $1'})
-
+frwl=$(systemctl status firewalld 2>/dev/null | grep Active | awk {'print $2"::"$3'} || systemctl status ufw 2>/dev/null | grep Active | awk {'print $2"::"$3'})
+if [[ $frwl == "" ]]
+then
+	frwl="Firewall not Found!"
+fi
 echo "+-----------------------+"
 echo "|Credits @UmerMehmood_  |"
 echo "+---------------+-------+"
+check_net=$(ping -c 1 google.com | grep 64 | awk {'print $1'})
 if [[ $check_net == 64 ]]
 then
 echo -e "|Internet Status| Connected"
