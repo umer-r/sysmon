@@ -20,7 +20,7 @@ And Much more (See sample output)
 
 # Installation
 ### On Terminal
-```
+```bash
 git clone https://github.com/carbon-2019/sysmon.git
 cd sysmon/
 chmod +x sysmon.sh
