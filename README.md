@@ -1,5 +1,8 @@
 ![](https://user-images.githubusercontent.com/83476929/126708973-1db7e73d-b79a-4b78-9743-d0cdbe11ed5a.png)
 <br />
+
+![GitHub](https://img.shields.io/github/license/umer-r/sysmon) ![GitHub top language](https://img.shields.io/github/languages/top/umer-r/sysmon) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/umer-r/sysmon) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/umer-r/sysmon)
+
 ## SYSMON
 ***Linux System information and monitoring version 1.0***
 
@@ -100,7 +103,10 @@ sysmon -x
 ```
 
 # Contact
-- Twitter : @UmerMehmood_
-- Email   : russs3400@gmail.com
-- Upwork  : https://www.upwork.com/o/profiles/users/~011184505ed9059668/
-- Fiverr  : https://www.fiverr.com/carbon_2019
+
+- [Gmail](mailto:russs3400@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/umer-mehmood-437120214/)
+- [Upwork](https://www.upwork.com/o/profiles/users/~011184505ed9059668/)
+- [Fiverr](https://www.fiverr.com/hamza_rajaz)
+
+Made with :heart: by [Umer](https://twitter.com/UmerMehmood_)
